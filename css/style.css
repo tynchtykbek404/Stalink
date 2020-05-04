@@ -1,0 +1,94 @@
+@font-face{
+    font-family: 'Starlink';
+    src: url('../fonts/starlink/Sterilict.woff'),
+    url('../fonts/starlink/Sterilict.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+ul,li,p,a,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#header-nasa{
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle, #003277, #022761, #031c4b, #021237, #000024);
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.nav-ul{
+    display: flex;
+
+}
+.nav-li{
+    list-style: none;
+    border-left: 1px solid #fff;
+    margin-left: 20px;
+    padding-left: 16px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Starlink';
+}
+.nav-link:hover{
+    color: #49b7ff;
+}
+.nav-li_active{
+    list-style: none;
+    margin-left: 20px;
+    padding-left: 16px;
+}
+
+/* HEADER MAIN */
+
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    font-family: 'Starlink';
+}
+.text-h1{
+    color: #fff;
+    font-size: 60px;
+}
+.text-p{
+    padding-top: 15px;
+    color: #fff;
+}
+.btn{
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+    border: 2px solid #49b7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.aaa{
+    color: #49b7ff;
+    text-decoration: none;
+} 
+#earth{
+    background-image: url(../img/earth.png);
+    width: 530px;
+    height: 530px;
+    border-radius: 50%;
+    background-size: cover;
+}
